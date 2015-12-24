@@ -1,0 +1,18 @@
+html {
+	text-align: center;
+}
+
+div {
+	margin: 5px auto;
+	padding: 3px;
+}
+
+.ads {
+	width: 200px;
+	border: 2px solid red;
+}
+
+.download {
+	width: 200px;
+	border: 2px solid green;
+}
