@@ -10,7 +10,7 @@
     </parent>
     <artifactId>directory-content-maven-plugin-examples-transformListAndJavaScript</artifactId>
     <packaging>war</packaging>
-    <name>Tranform List &amp; JavaScript imports</name>
+    <name>Transform List &amp; JavaScript imports</name>
     <description>Shows how to use transformList goal to generate a import-scripts.jsp file with imports of JavaScript files.</description>
 
     <properties>
