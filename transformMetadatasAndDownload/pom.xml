@@ -39,7 +39,7 @@
                             <!-- save imports list to import-scripts.jsp (this file will not be overwrite because is excluded 
                                 for maven-war-plugin) -->
                             <outputFileFormat>{fileName}.html</outputFileFormat>
-                            <outputDirectory>${project.build.directory}/${project.artifactId}-${project.version}/download/</outputDirectory>
+                            <outputDirectory>${project.build.directory}/${project.artifactId}-${project.version}/download</outputDirectory>
                             <xsltFile>download-page.xsl</xsltFile>
                             <separator>/</separator>
                         </configuration>
