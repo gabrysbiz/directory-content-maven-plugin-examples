@@ -8,15 +8,7 @@
 
     <xsl:template match="file">
         <xsl:text disable-output-escaping="yes"><![CDATA[<script src="/js/]]></xsl:text>
-        <xsl:if test="directory != ''">
-            <xsl:value-of select="directory" />
-            <xsl:text>/</xsl:text>
-        </xsl:if>
-        <xsl:value-of select="name" />
-        <xsl:if test="extension != ''">
-            <xsl:text>.</xsl:text>
-            <xsl:value-of select="extension" />
-        </xsl:if>
+        <xsl:value-of select="fullPath" />
         <xsl:text disable-output-escaping="yes"><![CDATA["></script>]]>&#10;</xsl:text>
     </xsl:template>
 </xsl:stylesheet>
