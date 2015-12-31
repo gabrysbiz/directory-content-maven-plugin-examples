@@ -1,6 +1,10 @@
 /.project
 /.settings
 /target
+/copyFiles/.classpath
+/copyFiles/.project
+/copyFiles/.settings
+/copyFiles/target
 /transformListAndJavaScript/.classpath
 /transformListAndJavaScript/.project
 /transformListAndJavaScript/.settings
