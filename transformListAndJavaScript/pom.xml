@@ -11,7 +11,7 @@
     <artifactId>directory-content-maven-plugin-examples-transformListAndJavaScript</artifactId>
     <packaging>war</packaging>
     <name>Transform List &amp; JavaScript imports</name>
-    <description>Shows how to use transformList goal to generate a import-scripts.jsp file with imports of JavaScript files.</description>
+    <description>Shows how to use transformList goal to generate a import-scripts.jsp file with JavaScript imports.</description>
 
     <properties>
         <!-- disable development mode (production be default) -->

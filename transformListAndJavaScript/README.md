@@ -1,5 +1,5 @@
-# Transform List & JavaScript imports
-Shows how to use [transformList](http://www.gabrys.biz/projects/directory-content-maven-plugin/LATEST/transformList-mojo.html) goal to generate a `import-scripts.jsp` file with imports of JavaScript files.
+# Transform files list to file with JavaScript imports
+Shows how to use [transformList](http://www.gabrys.biz/projects/directory-content-maven-plugin/LATEST/transformList-mojo.html) goal to generate a `import-scripts.jsp` file with JavaScript imports.
 
 The example contains application which a developer can build in two modes:
 

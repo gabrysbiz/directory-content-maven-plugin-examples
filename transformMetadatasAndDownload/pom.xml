@@ -11,7 +11,7 @@
     <artifactId>directory-content-maven-plugin-examples-transformMetadatasAndDownload</artifactId>
     <packaging>war</packaging>
     <name>Transform Metadatas &amp; Download Files Pages</name>
-    <description>Shows how to use transformMetadatas goal to create download pages for files list.</description>
+    <description>Shows how to use transformMetadatas goal to generate download pages for files list.</description>
 
     <dependencies>
         <dependency>
@@ -36,8 +36,6 @@
                             <includes>
                                 <include>**/*</include>
                             </includes>
-                            <!-- save imports list to import-scripts.jsp (this file will not be overwrite because is excluded 
-                                for maven-war-plugin) -->
                             <outputFileFormat>{fileName}.html</outputFileFormat>
                             <outputDirectory>${project.build.directory}/${project.artifactId}-${project.version}/download</outputDirectory>
                             <xsltFile>download-page.xsl</xsltFile>
