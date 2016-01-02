@@ -11,14 +11,7 @@
     <artifactId>directory-content-maven-plugin-examples-copyFiles</artifactId>
     <packaging>war</packaging>
     <name>Copy files</name>
-    <description>Shows how to use copy goal to copy files to directory.</description>
-
-    <properties>
-        <!-- disable development mode (production be default) -->
-        <mode.development>false</mode.development>
-        <!-- minify-maven-plugin requires exclusion processed files -->
-        <war.excludes>js/**/*</war.excludes>
-    </properties>
+    <description>Shows how to use a copy goal to copy files from source to output directory.</description>
 
     <dependencies>
         <dependency>
@@ -38,7 +31,6 @@
                             <goal>copy</goal>
                         </goals>
                         <configuration>
-                            <!-- includes all files without ignored extension from src/files directory -->
                             <sourceDirectory>src/files</sourceDirectory>
                             <includes>
                                 <include>**/*</include>
