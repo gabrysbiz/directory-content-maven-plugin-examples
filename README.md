@@ -4,4 +4,4 @@
 ## Examples:
 * [Copies files from source to output directory](copy)
 * [Transform files list to file with JavaScript imports](transformList)
-* [Transform metadata to download pages](transformMetadata)
+* [Transform files metadata to download pages](transformMetadata)
