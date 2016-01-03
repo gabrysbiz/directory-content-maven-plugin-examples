@@ -8,10 +8,10 @@
         <artifactId>directory-content-maven-plugin-examples</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>directory-content-maven-plugin-examples-transformMetadatasAndDownload</artifactId>
+    <artifactId>directory-content-maven-plugin-examples-transformMetadata</artifactId>
     <packaging>war</packaging>
-    <name>Transform Metadatas &amp; Download Files Pages</name>
-    <description>Shows how to use transformMetadatas goal to generate download pages for files list.</description>
+    <name>Transform Metadata &amp; Download Files Pages</name>
+    <description>Shows how to use transformMetadata goal to generate download pages for files list.</description>
 
     <dependencies>
         <dependency>
@@ -28,7 +28,7 @@
                 <executions>
                     <execution>
                         <goals>
-                            <goal>transformMetadatas</goal>
+                            <goal>transformMetadata</goal>
                         </goals>
                         <configuration>
                             <!-- includes all files from src/main/webapp/files directory -->

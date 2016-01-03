@@ -8,7 +8,7 @@
         <artifactId>directory-content-maven-plugin-examples</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>directory-content-maven-plugin-examples-copyFiles</artifactId>
+    <artifactId>directory-content-maven-plugin-examples-copy</artifactId>
     <packaging>war</packaging>
     <name>Copy files</name>
     <description>Shows how to use a copy goal to copy files from source to output directory.</description>

@@ -8,7 +8,7 @@
         <artifactId>directory-content-maven-plugin-examples</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>directory-content-maven-plugin-examples-transformListAndJavaScript</artifactId>
+    <artifactId>directory-content-maven-plugin-examples-transformList</artifactId>
     <packaging>war</packaging>
     <name>Transform List &amp; JavaScript imports</name>
     <description>Shows how to use transformList goal to generate a import-scripts.jsp file with JavaScript imports.</description>

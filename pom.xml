@@ -24,9 +24,9 @@
     </issueManagement>
 
     <modules>
-        <module>copyFiles</module>
-        <module>transformListAndJavaScript</module>
-        <module>transformMetadatasAndDownload</module>
+        <module>copy</module>
+        <module>transformList</module>
+        <module>transformMetadata</module>
     </modules>
 
     <properties>
