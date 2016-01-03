@@ -6,7 +6,7 @@
     <parent>
         <groupId>biz.gabrys.maven.plugins</groupId>
         <artifactId>directory-content-maven-plugin-examples</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
     <artifactId>directory-content-maven-plugin-examples-transformList</artifactId>
     <packaging>war</packaging>
