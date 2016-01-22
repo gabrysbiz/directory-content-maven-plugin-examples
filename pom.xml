@@ -12,6 +12,12 @@
 
     <inceptionYear>2015</inceptionYear>
 
+    <modules>
+        <module>copy</module>
+        <module>transformList</module>
+        <module>transformMetadata</module>
+    </modules>
+
     <scm>
         <connection>scm:git:git@github.com:gabrysbiz/directory-content-maven-plugin-examples.git</connection>
         <developerConnection>scm:git:git@github.com:gabrysbiz/directory-content-maven-plugin-examples.git</developerConnection>
@@ -23,15 +29,20 @@
         <url>https://github.com/gabrysbiz/directory-content-maven-plugin-examples/issues</url>
     </issueManagement>
 
-    <modules>
-        <module>copy</module>
-        <module>transformList</module>
-        <module>transformMetadata</module>
-    </modules>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>servlet-api</artifactId>
+                <version>2.5</version>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <pluginRepositories>
         <pluginRepository>
@@ -46,17 +57,6 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>javax.servlet</groupId>
-                <artifactId>servlet-api</artifactId>
-                <version>2.5</version>
-                <scope>provided</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <build>
         <pluginManagement>
