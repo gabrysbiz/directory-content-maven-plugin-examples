@@ -19,7 +19,7 @@
     </modules>
 
     <scm>
-        <connection>scm:git:git@github.com:gabrysbiz/directory-content-maven-plugin-examples.git</connection>
+        <connection>scm:git:git://github.com/gabrysbiz/directory-content-maven-plugin-examples.git</connection>
         <developerConnection>scm:git:git@github.com:gabrysbiz/directory-content-maven-plugin-examples.git</developerConnection>
         <url>https://github.com/gabrysbiz/directory-content-maven-plugin-examples</url>
     </scm>
@@ -61,10 +61,6 @@
     <build>
         <pluginManagement>
             <plugins>
-                <plugin>
-                    <artifactId>maven-war-plugin</artifactId>
-                    <version>2.6</version>
-                </plugin>
                 <plugin>
                     <groupId>biz.gabrys.maven.plugins</groupId>
                     <artifactId>directory-content-maven-plugin</artifactId>

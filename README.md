@@ -1,5 +1,5 @@
 # Directory Content Maven Plugin Examples
-[Directory Content Maven Plugin](http://www.gabrys.biz/projects/directory-content-maven-plugin/) example projects.
+[Directory Content Maven Plugin](http://directory-content-maven-plugin.projects.gabrys.biz/) example projects.
 
 ## Examples:
 * [Copies files from source to output directory](copy)
