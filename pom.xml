@@ -64,7 +64,7 @@
                 <plugin>
                     <groupId>biz.gabrys.maven.plugins</groupId>
                     <artifactId>directory-content-maven-plugin</artifactId>
-                    <version>1.0</version>
+                    <version>1.0.1</version>
                     <configuration>
                         <verbose>true</verbose>
                     </configuration>
