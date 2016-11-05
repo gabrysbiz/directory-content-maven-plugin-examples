@@ -5,7 +5,7 @@
 
     <groupId>biz.gabrys.maven.plugins</groupId>
     <artifactId>directory-content-maven-plugin-examples</artifactId>
-    <version>1.0</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
     <name>Directory Content Maven Plugin Examples</name>
     <description>Directory Content Maven Plugin example projects.</description>
@@ -64,7 +64,7 @@
                 <plugin>
                     <groupId>biz.gabrys.maven.plugins</groupId>
                     <artifactId>directory-content-maven-plugin</artifactId>
-                    <version>1.0.1</version>
+                    <version>1.0.2</version>
                     <configuration>
                         <verbose>true</verbose>
                     </configuration>
