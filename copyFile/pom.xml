@@ -8,10 +8,10 @@
         <artifactId>directory-content-maven-plugin-examples</artifactId>
         <version>1.2.1</version>
     </parent>
-    <artifactId>directory-content-maven-plugin-examples-copy</artifactId>
+    <artifactId>directory-content-maven-plugin-examples-copyFile</artifactId>
     <packaging>war</packaging>
-    <name>Copy files</name>
-    <description>Shows how to use a copy goal to copy files from source to output directory.</description>
+    <name>Copy file to output directory with a new name</name>
+    <description>Shows how to use a copyFile goal to copy file with a new name.</description>
 
     <dependencies>
         <dependency>
@@ -28,17 +28,12 @@
                 <executions>
                     <execution>
                         <goals>
-                            <goal>copy</goal>
+                            <goal>copyFile</goal>
                         </goals>
                         <configuration>
                             <sourceDirectory>src/files</sourceDirectory>
-                            <includes>
-                                <include>**/*</include>
-                            </includes>
-                            <excludes>
-                                <exclude>**/*.ignored</exclude>
-                            </excludes>
-                            <outputDirectory>${project.build.directory}/${project.artifactId}-${project.version}/files</outputDirectory>
+                            <sourceFilePath>file.txt</sourceFilePath>
+                            <outputFilePath>the-same-file-with-new-name.txt</outputFilePath>
                         </configuration>
                     </execution>
                 </executions>

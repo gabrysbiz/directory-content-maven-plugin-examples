@@ -5,7 +5,7 @@
 
     <groupId>biz.gabrys.maven.plugins</groupId>
     <artifactId>directory-content-maven-plugin-examples</artifactId>
-    <version>1.0.2</version>
+    <version>1.2.1</version>
     <packaging>pom</packaging>
     <name>Directory Content Maven Plugin Examples</name>
     <description>Directory Content Maven Plugin example projects.</description>
@@ -14,6 +14,7 @@
 
     <modules>
         <module>copy</module>
+        <module>copyFile</module>
         <module>transformList</module>
         <module>transformMetadata</module>
     </modules>
@@ -64,7 +65,7 @@
                 <plugin>
                     <groupId>biz.gabrys.maven.plugins</groupId>
                     <artifactId>directory-content-maven-plugin</artifactId>
-                    <version>1.0.2</version>
+                    <version>1.2.1</version>
                     <configuration>
                         <verbose>true</verbose>
                     </configuration>
