@@ -12,7 +12,7 @@
                 <link href="/style.css" rel="stylesheet" />
             </head>
             <body>
-                <div class="ads">Space for advertisement</div>
+                <div class="ads">Space for an advertisement</div>
                 <div class="download">
                     <a>
                         <xsl:attribute name="href">
@@ -28,7 +28,7 @@
                         </xsl:if>
                     </a>
                 </div>
-                <div class="ads">Space for advertisement</div>
+                <div class="ads">Space for an advertisement</div>
             </body>
         </html>
     </xsl:template>
