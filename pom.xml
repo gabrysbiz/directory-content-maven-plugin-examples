@@ -29,6 +29,10 @@
         <system>GitHub</system>
         <url>https://github.com/gabrysbiz/directory-content-maven-plugin-examples/issues</url>
     </issueManagement>
+    <ciManagement>
+        <system>travis</system>
+        <url>https://travis-ci.org/gabrysbiz/directory-content-maven-plugin-examples</url>
+    </ciManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
