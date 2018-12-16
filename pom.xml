@@ -5,7 +5,7 @@
 
     <groupId>biz.gabrys.maven.plugins</groupId>
     <artifactId>directory-content-maven-plugin-examples</artifactId>
-    <version>2.0.1</version>
+    <version>3.0.0</version>
     <packaging>pom</packaging>
     <name>Directory Content Maven Plugin Examples</name>
     <description>Directory Content Maven Plugin example projects.</description>
@@ -69,12 +69,37 @@
                 <plugin>
                     <groupId>biz.gabrys.maven.plugins</groupId>
                     <artifactId>directory-content-maven-plugin</artifactId>
-                    <version>2.0.2-SNAPSHOT</version>
+                    <version>3.0.0</version>
                     <configuration>
                         <verbose>true</verbose>
                     </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <version>3.0.0-M2</version>
+                <executions>
+                    <execution>
+                        <id>enforce-versions</id>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                        <configuration>
+                            <rules>
+                                <requireJavaVersion>
+                                    <version>1.8</version>
+                                </requireJavaVersion>
+                                <requireMavenVersion>
+                                    <version>3.3.9</version>
+                                </requireMavenVersion>
+                            </rules>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
     </build>
 </project>
